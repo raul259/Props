@@ -14,7 +14,7 @@ function App() {
       </section>
 
       <section className="bloque-alumno">
-        <AlumnoCard nombre="Jose Carlos" curso="DAM" />
+        <AlumnoCard nombre="Jose Carlos" curso="ASIX" />
         <EstadoAlumno activo={false} />
       </section>
     </main>
