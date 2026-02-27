@@ -3,7 +3,11 @@ interface EstadoAlumnoProps {
 }
 
 function EstadoAlumno({ activo }: EstadoAlumnoProps) {
-  return <p className="estado-alumno">{activo ? "Activo" : "Inactivo"}</p>;
+  return (
+    <p className="estado-alumno">
+      <strong>Estado:</strong> {activo ? "Activo" : "Inactivo"}
+    </p>
+  );
 }
 
 export default EstadoAlumno;
