@@ -1,0 +1,25 @@
+.app {
+  display: grid;
+  gap: 1rem;
+  width: min(480px, 100%);
+}
+
+.bloque-alumno {
+  background: #ffffff;
+  border: 1px solid #dfe3e8;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.alumno-card h2 {
+  margin: 0 0 0.5rem;
+}
+
+.alumno-card p {
+  margin: 0.25rem 0;
+}
+
+.estado-alumno {
+  margin: 0.75rem 0 0;
+  font-weight: 700;
+}
